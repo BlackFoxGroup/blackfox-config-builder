@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/config Builder.png" alt="Black Fox VPN Logo" width="96">
+  <img src="docs/assets/config Builder.png" alt="Black Fox Config Builder" width="96">
 </p>
 
 <h1 align="center">Black Fox Config Builder</h1>
@@ -10,55 +10,27 @@
 </p>
 
 <p align="center">
+  <a href="#english">English</a> ·
+  <a href="#فارسی">فارسی</a> ·
+  <a href="#中文">中文</a> ·
+  <a href="#русский">Русский</a>
+</p>
+
+<p align="center">
   <a href="https://foxnext.net">Website</a> •
-  <a href="https://foxnext.net/downloads/Black-Fox-Config-Builder.apk">Black-Fox-Config-Builder.apk</a> •
-  <a href="https://github.com/balckfoxgroup/blackfox-vpn-installer">Black Fox Vpn Installer</a> •
-  <a href="https://github.com/balckfoxgroup/smart-support-bot">Smart Support Bot</a> •
+  <a href="https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk"><strong>Download APK (arm64)</strong></a> •
+  <a href="https://github.com/BlackFoxGroup/blackfox-vpn-installer">Black Fox Vpn Installer</a> •
   <a href="https://t.me/blackFoxVPNN">Telegram</a>
 </p>
 
-<div dir="rtl">
+| Platform | Product | Version | Arch | Download |
+|----------|---------|---------|------|----------|
+| Android | **Black Fox Config Builder** | **v1.1.4 (Build 9)** | **arm64-v8a** | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 
-برنامه **Config Builder** به‌صورت **رایگان و متن‌باز (Open Source)** در اختیار عموم قرار گرفته است تا همه بتوانند آزادانه از آن استفاده کنند و در توسعه و بهبود آن مشارکت داشته باشند.
-
-⭐ اگر این پروژه برای شما مفید است، لطفاً با **Star ⭐ در GitHub** از ادامه این مسیر و توسعه پروژه حمایت کنید. حمایت شما انگیزه‌ای برای ادامه و ساخت پروژه‌های بهتر است.
-
-🦊 همچنین خوشحالیم که به **خانواده Black Fox** پیوسته‌اید. ❤️  
-امیدواریم در کنار هم بتوانیم پروژه‌های کاربردی و متن‌باز بیشتری توسعه دهیم.
-
-🚀 در کنار **Config Builder**، می‌توانید از سایر پروژه‌های **Black Fox** نیز دیدن کنید و از آن‌ها استفاده کنید.
-
-**از همراهی و حمایت شما سپاسگزاریم. 🙏**
-
-</div>
-
----
-
-## Open Source (Android)
-
-سورس **اندروید** این پروژه متن‌باز است و در پوشه [`android/`](android/) قرار دارد (Flutter UI + Go/gomobile client برای 3X-UI).
-
-| بخش | مسیر |
-|------|------|
-| Flutter UI | [`android/flutter/`](android/flutter/) |
-| کلاینت Go (3X-UI) | [`android/go/`](android/go/) |
-| اسکریپت‌های بیلد | [`android/scripts/`](android/scripts/) |
-| راهنمای بیلد | [`android/README.md`](android/README.md) |
-
-برای بیلد محلی، فایل‌های نمونه `key.properties.example` و `local.properties.example` را کپی و تکمیل کنید. فایل‌های keystore و رمزها در مخزن نیستند.
-
----
-
-## Current release
-
-| Platform | Product | Version | Status | Download |
-|----------|---------|---------|--------|----------|
-| Android | **Black Fox Config Builder** | **v1.1.3 (Build 7)** | Available | [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
-
-- Package ID: `com.blackfoxvpnn.configbuilder`  
-- Minimum Android: API 24 (Android 7.0+)  
-- Required panel: **3X-UI 3.3.0 or newer**  
-- Languages: **10** (en, fa, ru, zh, de, uz, tr, id, uk, hi)  
+- Package ID: `com.blackfoxvpnn.configbuilder`
+- Minimum Android: API 24 (Android 7.0+)
+- Required panel: **3X-UI 3.3.0 or newer**
+- Languages: **10** (en, fa, ru, zh, de, uz, tr, id, uk, hi)
 
 ---
 
@@ -67,98 +39,168 @@
 **Black Fox Config Builder** is an Android companion app in the Black Fox product family.
 
 It is **not** a VPN client and **not** a server installer.  
-It connects to an existing **3X-UI (Sanaei)** panel and creates client configs from the phone — without the classic browser login workflow.
+It connects to an existing **3X-UI (Sanaei)** panel and creates client configs from the phone.
 
-Credentials come from **Panel Login Info** in **Black Fox Vpn Installer** (Windows) or **BlackFox Vpn Android**.
+**Download (arm64 / 64-bit phones):**  
+[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
 
-### Features (v1.1.3 Build 7)
+This app is **free and open source**. If it helps you, please **Star** the repository.
 
-1. **Connection** — Panel URL, Username, Password, optional API Key, optional Sub URI · Connect / Disconnect / Save / Delete  
-2. **Single** — Create one config with name (or random name), traffic (GB), duration (days), **multi-inbound select**, VLESS + Subscription links, config QR + sub QR, tap-to-copy, Clear page  
-3. **Bulk** — Base name, count, traffic, duration, multi-inbound, progress + stop, generated links list  
-4. **List** — Local history · Copy link · **Delete from panel** · **Delete from list** (single or multi-select)  
-5. **Settings** — Language · Manual / startup update check · Force update support · Activity log (view / copy / clear)  
-6. **Contact** — Website, email, GitHub, Telegram channel / support / bot / group  
+### Features (v1.1.4 Build 9)
+
+1. **Connection** — Panel URL, username, password, optional API key, optional Sub URI  
+2. **Single** — One config, name or random name, traffic, days, multi-inbound, VLESS + subscription, QR, copy  
+3. **Bulk** — Base name, count, traffic, duration, multi-inbound, progress and stop  
+4. **List** — Local history, copy link, delete from panel, delete from list  
+5. **Settings** — Language, update check, activity log  
+6. **Contact** — Links loaded from `https://foxnext.net/runtime-config.json` at startup  
 
 ### Remote updates
 
-Dual-server remote feed (same policy as the installer family):
-
 - Primary: `http://blackfoxupdate.ir`  
 - Secondary: `https://foxnext.net`  
+- Feeds: `version.json`, `news.json`, `wallet.json`  
+- In-app APK name on those hosts: `Black-Fox-Config-Builder.apk`
 
-Feeds: `version.json`, `news.json`, `wallet.json`, and APK download as **`Black-Fox-Config-Builder.apk`**.
+### Open source (Android)
 
-### Build history (published)
-
-| Build | Notes |
-|-------|--------|
-| Build 6 | Dual-server remote feed for version / wallet / news / APK |
-| Build 7 | Current published Android release (`1.1.3+7`) with full six-tab app: Connection, Single, Bulk, List, Settings, Contact · multi-inbound · delete from panel · 10 languages · 3X-UI ≥ 3.3.0 |
+Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 
 ### Resources
 
 | Resource | Link |
 |----------|------|
 | Website | [foxnext.net](https://foxnext.net) |
-| Download APK | [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
+| GitHub APK (arm64) | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 | User guide (EN) | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
 | User guide (FA) | [docs/GUIDE.fa.md](docs/GUIDE.fa.md) |
-| Black Fox Vpn Installer (Windows/Android) | [balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer) |
 | Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
 
 ---
 
 ## فارسی
 
-برنامه **Black Fox Config Builder** ابزار همراه اندروید در خانواده محصولات Black Fox است.
+برنامه **Black Fox Config Builder** ابزار همراه اندروید در خانواده Black Fox است.
 
 این برنامه **کلاینت VPN** نیست و **نصب‌کننده سرور** هم نیست.  
-به پنل موجود **3X-UI (سنایی)** متصل می‌شود و ساخت کانفیگ کلاینت را از روی گوشی انجام می‌دهد؛ بدون مسیر کلاسیک ورود به پنل از مرورگر.
+به پنل موجود **3X-UI** وصل می‌شود و از روی گوشی کانفیگ می‌سازد.
 
-اطلاعات ورود را از بخش **Panel Login Info** در برنامه **Black Fox Vpn Installer** (ویندوز) یا **BlackFox Vpn Android** بگیرید و در تب Connection وارد کنید.
+**دانلود (معماری arm64 / گوشی ۶۴بیتی):**  
+[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
 
-### امکانات نسخه فعلی (v1.1.3 Build 7)
+این برنامه **رایگان و متن‌باز** است. اگر مفید بود، در گیت‌هاب **Star** بزنید.
 
-۱. **Connection (اتصال)** — آدرس پنل، نام کاربری، رمز عبور، API Key اختیاری، Sub URI اختیاری · اتصال / قطع اتصال / ذخیره / حذف  
-۲. **Single (تکی)** — ساخت یک کانفیگ با نام (یا نام تصادفی)، حجم به گیگابایت، مدت به روز، **انتخاب چند Inbound**، لینک VLESS و Subscription، QR کانفیگ و QR ساب، کپی با ضربه، پاک‌کردن صفحه  
-۳. **Bulk (گروهی)** — نام پایه، تعداد، حجم، مدت، انتخاب چند Inbound، نوار پیشرفت و توقف، فهرست لینک‌های ساخته‌شده  
-۴. **List (لیست)** — سابقه محلی · کپی لینک · **حذف از پنل** · **حذف از لیست** (تکی یا چندانتخابی)  
-۵. **Settings (تنظیمات)** — تغییر زبان · بررسی آپدیت دستی و هنگام شروع · پشتیبانی از Force Update · لاگ فعالیت (مشاهده / کپی / پاک‌کردن)  
-۶. **Contact (تماس)** — وب‌سایت، ایمیل، گیت‌هاب، کانال / پشتیبانی / ربات / گروه تلگرام  
+### امکانات نسخه فعلی (v1.1.4 بیلد ۹)
 
-### پیش‌نیازها
+۱. **اتصال** — آدرس پنل، نام کاربری، رمز، API Key اختیاری  
+۲. **تکی** — یک کانفیگ، نام یا نام تصادفی، حجم، روز، چند inbound، لینک و QR  
+۳. **گروهی** — نام پایه، تعداد، حجم، مدت، چند inbound  
+۴. **لیست** — سابقه، کپی لینک، حذف از پنل یا لیست  
+۵. **تنظیمات** — زبان، بررسی آپدیت، لاگ  
+۶. **تماس** — اطلاعات از `runtime-config.json` روی `foxnext.net`  
 
-- اندروید ۷ به بالا (API 24)  
-- پنل 3X-UI نسخه **۳.۳.۰ یا جدیدتر**  
-- پشتیبانی از **۱۰ زبان:** انگلیسی، فارسی، روسی، چینی، آلمانی، ازبکی، ترکی، اندونزیایی، اوکراینی، هندی  
+### پیش‌نیاز
 
-### آپدیت ریموت
+اندروید ۷ به بالا. پنل 3X-UI نسخه **۳.۳.۰ یا جدیدتر**.
 
-فید دو سرور (همان سیاست خانواده Installer):
+### آپدیت داخل برنامه
 
 - اصلی: `http://blackfoxupdate.ir`  
 - ثانویه: `https://foxnext.net`  
-
-فایل‌ها: `version.json`، `news.json`، `wallet.json` و دانلود APK با نام کامل **`Black-Fox-Config-Builder.apk`**.
-
-### تاریخچه بیلدهای منتشرشده
-
-| بیلد | توضیح |
-|------|--------|
-| Build 6 | فید ریموت دو سرور برای version / wallet / news / APK |
-| Build 7 | نسخه فعلی اندروید (`1.1.3+7`) با شش تب کامل، multi-inbound، حذف از پنل، ۱۰ زبان و الزام 3X-UI ≥ 3.3.0 |
+- نام فایل روی آن هاست‌ها: `Black-Fox-Config-Builder.apk`
 
 ### منابع
 
 | منبع | لینک |
 |------|------|
 | وب‌سایت | [foxnext.net](https://foxnext.net) |
-| دانلود APK | [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
-| راهنمای کاربر (انگلیسی) | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
-| راهنمای کاربر (فارسی) | [docs/GUIDE.fa.md](docs/GUIDE.fa.md) |
-| Black Fox Vpn Installer (ویندوز/اندروید) | [balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer) |
+| APK گیت‌هاب (arm64) | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| راهنما | [docs/GUIDE.fa.md](docs/GUIDE.fa.md) |
 | تلگرام | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
+
+---
+
+## 中文
+
+**Black Fox Config Builder** 是 Black Fox 系列中的 Android 配套应用。
+
+它**不是** VPN 客户端，也**不是**服务器安装程序。  
+它连接已有的 **3X-UI** 面板，在手机上创建客户端配置。
+
+**下载（arm64 / 64 位手机）：**  
+[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
+
+本应用**免费开源**。如果对你有帮助，请给仓库点 **Star**。
+
+### 当前版本功能（v1.1.4 Build 9）
+
+1. **连接** — 面板地址、用户名、密码、可选 API Key  
+2. **单个** — 创建一条配置、流量、天数、多 inbound、链接与二维码  
+3. **批量** — 基础名称、数量、流量、时长、多 inbound  
+4. **列表** — 本地记录、复制、从面板或列表删除  
+5. **设置** — 语言、检查更新、日志  
+6. **联系** — 启动时从 `foxnext.net` 的 `runtime-config.json` 读取  
+
+### 系统要求
+
+Android 7.0 及以上。面板需 **3X-UI 3.3.0 或更高**。
+
+### 应用内更新
+
+- 主站：`http://blackfoxupdate.ir`  
+- 备用：`https://foxnext.net`  
+- 这些主机上的文件名：`Black-Fox-Config-Builder.apk`
+
+### 资源
+
+| 资源 | 链接 |
+|------|------|
+| 网站 | [foxnext.net](https://foxnext.net) |
+| GitHub APK（arm64） | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| 用户指南 | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
+| Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
+
+---
+
+## Русский
+
+**Black Fox Config Builder** — Android-приложение семейства Black Fox.
+
+Это **не** VPN-клиент и **не** установщик сервера.  
+Оно подключается к существующей панели **3X-UI** и создаёт клиентские конфиги с телефона.
+
+**Скачать (arm64 / 64-битные телефоны):**  
+[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
+
+Приложение **бесплатное и с открытым исходным кодом**. Если оно полезно, поставьте **Star**.
+
+### Возможности (v1.1.4, сборка 9)
+
+1. **Подключение** — URL панели, логин, пароль, необязательный API Key  
+2. **Один конфиг** — имя, трафик, дни, несколько inbound, ссылки и QR  
+3. **Пакетно** — базовое имя, количество, трафик, срок, несколько inbound  
+4. **Список** — история, копирование, удаление с панели или из списка  
+5. **Настройки** — язык, проверка обновлений, журнал  
+6. **Контакты** — данные с `runtime-config.json` на `foxnext.net` при запуске  
+
+### Требования
+
+Android 7.0 и выше. Панель **3X-UI 3.3.0 или новее**.
+
+### Обновления в приложении
+
+- Основной: `http://blackfoxupdate.ir`  
+- Резервный: `https://foxnext.net`  
+- Имя файла на этих хостах: `Black-Fox-Config-Builder.apk`
+
+### Ресурсы
+
+| Ресурс | Ссылка |
+|--------|--------|
+| Сайт | [foxnext.net](https://foxnext.net) |
+| GitHub APK (arm64) | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| Руководство | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
+| Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
 
 ---
 
@@ -169,14 +211,12 @@ Feeds: `version.json`, `news.json`, `wallet.json`, and APK download as **`Black-
   <img src="docs/assets/screenshots/en-connection-single.png" alt="Panel connection and single config" width="48%">
   <img src="docs/assets/screenshots/en-bulk-settings.png" alt="Bulk config and settings" width="48%">
 </p>
-<p align="center"><em>Panel connection &amp; single config · Bulk config &amp; settings</em></p>
 
 <p align="center"><strong>Persian screens</strong></p>
 <p align="center">
-  <img src="docs/assets/screenshots/fa-language-single.png" alt="انتخاب زبان و کانفیگ تکی" width="48%">
-  <img src="docs/assets/screenshots/fa-bulk-settings.png" alt="ساخت گروهی و تنظیمات" width="48%">
+  <img src="docs/assets/screenshots/fa-language-single.png" alt="Language and single config" width="48%">
+  <img src="docs/assets/screenshots/fa-bulk-settings.png" alt="Bulk and settings" width="48%">
 </p>
-<p align="center"><em>انتخاب زبان و کانفیگ تکی · ساخت گروهی و تنظیمات</em></p>
 
 ---
 
