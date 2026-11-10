@@ -11,7 +11,7 @@ class PanelEngine {
   PanelEngine._();
 
   static final PanelEngine instance = PanelEngine._();
-  static const _channel = MethodChannel('com.blackfoxvpnn.configbuilder/engine');
+  static const _channel = MethodChannel('net.foxnext.configbuilder/engine');
 
   bool _initialized = false;
 

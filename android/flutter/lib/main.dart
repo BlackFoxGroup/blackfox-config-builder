@@ -7,6 +7,7 @@ import 'screens/home_shell.dart';
 import 'screens/language_picker_screen.dart';
 import 'services/app_log_service.dart';
 import 'services/config_repository.dart';
+import 'services/contact_feed_service.dart';
 import 'services/inbound_service.dart';
 import 'services/locale_service.dart';
 import 'services/panel_engine.dart';
@@ -19,6 +20,12 @@ void main() async {
   log.info('App starting…');
   await LocaleService.instance.load();
   log.info('Locale loaded: ${LocaleService.instance.locale.languageCode}');
+  await ContactFeedService.instance.loadOnStartup();
+  log.info(
+    ContactFeedService.instance.live
+        ? 'Contact feed loaded from foxnext.net'
+        : 'Contact feed using cache or defaults',
+  );
   await PanelStore.instance.load();
   await ConfigRepository.instance.load();
   InboundService.instance.bindSession();

@@ -1,5 +1,6 @@
-package com.blackfoxvpnn.configbuilder
+package net.foxnext.configbuilder
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -8,7 +9,7 @@ import androidx.core.content.FileProvider
 import java.io.File
 
 object ApkInstaller {
-    fun install(context: android.content.Context, path: String) {
+    fun install(context: Context, path: String) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val canInstall = context.packageManager.canRequestPackageInstalls()
             if (!canInstall) {

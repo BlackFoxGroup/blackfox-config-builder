@@ -11,7 +11,7 @@ $env:GOSUMDB = "sum.golang.google.cn"
 $env:ANDROID_HOME = Join-Path $env:LOCALAPPDATA "Android\Sdk"
 $env:ANDROID_NDK_HOME = Join-Path $env:ANDROID_HOME "ndk\27.0.12077973"
 
-$JdkPath = "C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot"
+$JdkPaths = @("C:\Users\Amir\java\17.0.13+11", "C:\Program Files\Android\Android Studio\jbr", "C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot"); foreach ($p in $JdkPaths) { if (Test-Path "$p\bin\javac.exe") { $JdkPath = $p; break } }
 if (Test-Path $JdkPath) {
     $env:JAVA_HOME = $JdkPath
     $env:PATH = "$JdkPath\bin;" + $env:PATH
@@ -22,9 +22,12 @@ if (Test-Path $FlutterBin) {
     $env:PATH = "$FlutterBin;" + $env:PATH
 }
 
-& (Join-Path $PSScriptRoot "setup-gradle-mirror.ps1")
-& (Join-Path $PSScriptRoot "build-gomobile.ps1")
-if ($LASTEXITCODE -ne 0) { throw "gomobile build failed" }
+$AarPath = Join-Path $FlutterDir "android\app\libs\mobile.aar"
+if (-not (Test-Path $AarPath)) {
+    & (Join-Path $PSScriptRoot "setup-gradle-mirror.ps1")
+    & (Join-Path $PSScriptRoot "build-gomobile.ps1")
+    if ($LASTEXITCODE -ne 0) { throw "gomobile build failed" }
+}
 
 $KeyProps = Join-Path $FlutterDir "android\key.properties"
 if (-not (Test-Path $KeyProps)) {
@@ -34,7 +37,7 @@ if (-not (Test-Path $KeyProps)) {
 Push-Location $FlutterDir
 try {
     flutter pub get
-    flutter build apk --release --target-platform android-arm64
+    flutter build apk --release --target-platform android-arm64 --android-skip-build-dependency-validation
     if ($LASTEXITCODE -ne 0) { throw "flutter build failed" }
 
     New-Item -ItemType Directory -Force -Path $Dist | Out-Null

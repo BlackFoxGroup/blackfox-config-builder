@@ -1,4 +1,4 @@
-package com.blackfoxvpnn.configbuilder
+package net.foxnext.configbuilder
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
@@ -15,6 +15,6 @@ class MainActivity : FlutterActivity() {
     }
 
     companion object {
-        private const val ENGINE_CHANNEL = "com.blackfoxvpnn.configbuilder/engine"
+        private const val ENGINE_CHANNEL = "net.foxnext.configbuilder/engine"
     }
 }

@@ -1,4 +1,4 @@
-package com.blackfoxvpnn.configbuilder
+package net.foxnext.configbuilder
 
 import android.content.Context
 import android.util.Log

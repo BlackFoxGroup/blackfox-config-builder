@@ -11,7 +11,7 @@ $env:GOSUMDB = "sum.golang.google.cn"
 $env:ANDROID_HOME = Join-Path $env:LOCALAPPDATA "Android\Sdk"
 $env:ANDROID_NDK_HOME = Join-Path $env:ANDROID_HOME "ndk\27.0.12077973"
 
-$JdkPath = "C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot"
+$JdkPaths = @("C:\Users\Amir\java\17.0.13+11", "C:\Program Files\Android\Android Studio\jbr", "C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot"); foreach ($p in $JdkPaths) { if (Test-Path "$p\bin\javac.exe") { $JdkPath = $p; break } }
 if (Test-Path $JdkPath) {
     $env:JAVA_HOME = $JdkPath
     $env:PATH = "$JdkPath\bin;" + $env:PATH

@@ -42,7 +42,7 @@ class _LanguagePickerScreenState extends State<LanguagePickerScreen> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image.asset(
-                    'assets/images/logo.jpg',
+                    'assets/images/logo.png',
                     width: 120,
                     height: 120,
                     fit: BoxFit.cover,

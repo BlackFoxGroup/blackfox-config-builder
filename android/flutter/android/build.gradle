@@ -1,23 +1,23 @@
 allprojects {
     repositories {
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
         maven { url = uri("https://storage.flutter-io.cn/download.flutter.io") }
         maven { url = uri("https://storage.googleapis.com/download.flutter.io") }
         google()
         mavenCentral()
-        maven { url = uri("https://maven.aliyun.com/repository/google") }
-        maven { url = uri("https://maven.aliyun.com/repository/public") }
     }
 }
 
 subprojects {
     buildscript {
         repositories {
-            google()
-            mavenCentral()
-            gradlePluginPortal()
             maven { url = uri("https://maven.aliyun.com/repository/google") }
             maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
             maven { url = uri("https://maven.aliyun.com/repository/public") }
+            gradlePluginPortal()
+            google()
+            mavenCentral()
         }
         configurations.classpath {
             resolutionStrategy.eachDependency { details ->
@@ -31,7 +31,7 @@ subprojects {
     afterEvaluate { project ->
         if (project.hasProperty("android") && project.name == "jni") {
             project.android {
-                ndkVersion = "27.0.12077973"
+                ndkVersion = "28.2.13676358"
             }
         }
     }
