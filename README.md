@@ -25,7 +25,7 @@
 
 | Platform | Product | Version | Arch | Download |
 |----------|---------|---------|------|----------|
-| Android | **[Black Fox Config Builder](https://apkpure.com/p/net.foxnext.configbuilder)** | **v1.1.4 (Build 9)** | **arm64-v8a** | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| Android | **[Config Builder](https://apkpure.com/p/net.foxnext.configbuilder)** | **v1.1.4 (Build 9)** | **arm64-v8a** | [Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 
 - Package ID: `net.foxnext.configbuilder`
 - Minimum Android: API 24 (Android 7.0+)
@@ -42,7 +42,7 @@ It is **not** a VPN client and **not** a server installer.
 It connects to an existing **3X-UI (Sanaei)** panel and creates client configs from the phone.
 
 **Download (arm64 / 64-bit phones):**  
-[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
+[Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
 
 This app is **free and open source**. If it helps you, please **Star** the repository.
 
@@ -71,10 +71,10 @@ Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 | Resource | Link |
 |----------|------|
 | Website | [foxnext.net](https://foxnext.net) |
-| GitHub APK (arm64) | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| GitHub APK (arm64) | [Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 | User guide (EN) | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
 | User guide (FA) | [docs/GUIDE.fa.md](docs/GUIDE.fa.md) |
-| Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
+| Telegram | [@HiblackFox](https://t.me/HiblackFox) |
 
 ---
 
@@ -86,7 +86,7 @@ Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 به پنل موجود **3X-UI** وصل می‌شود و از روی گوشی کانفیگ می‌سازد.
 
 **دانلود (معماری arm64 / گوشی ۶۴بیتی):**  
-[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
+[Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
 
 این برنامه **رایگان و متن‌باز** است. اگر مفید بود، در گیت‌هاب **Star** بزنید.
 
@@ -114,9 +114,9 @@ Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 | منبع | لینک |
 |------|------|
 | وب‌سایت | [foxnext.net](https://foxnext.net) |
-| APK گیت‌هاب (arm64) | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| APK گیت‌هاب (arm64) | [Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 | راهنما | [docs/GUIDE.fa.md](docs/GUIDE.fa.md) |
-| تلگرام | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
+| تلگرام | [@HiblackFox](https://t.me/HiblackFox) |
 
 ---
 
@@ -128,7 +128,7 @@ Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 它连接已有的 **3X-UI** 面板，在手机上创建客户端配置。
 
 **下载（arm64 / 64 位手机）：**  
-[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
+[Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
 
 本应用**免费开源**。如果对你有帮助，请给仓库点 **Star**。
 
@@ -156,9 +156,9 @@ Android 7.0 及以上。面板需 **3X-UI 3.3.0 或更高**。
 | 资源 | 链接 |
 |------|------|
 | 网站 | [foxnext.net](https://foxnext.net) |
-| GitHub APK（arm64） | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| GitHub APK（arm64） | [Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 | 用户指南 | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
-| Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
+| Telegram | [@HiblackFox](https://t.me/HiblackFox) |
 
 ---
 
@@ -170,7 +170,7 @@ Android 7.0 及以上。面板需 **3X-UI 3.3.0 或更高**。
 Оно подключается к существующей панели **3X-UI** и создаёт клиентские конфиги с телефона.
 
 **Скачать (arm64 / 64-битные телефоны):**  
-[Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
+[Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk)
 
 Приложение **бесплатное и с открытым исходным кодом**. Если оно полезно, поставьте **Star**.
 
@@ -198,9 +198,9 @@ Android 7.0 и выше. Панель **3X-UI 3.3.0 или новее**.
 | Ресурс | Ссылка |
 |--------|--------|
 | Сайт | [foxnext.net](https://foxnext.net) |
-| GitHub APK (arm64) | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| GitHub APK (arm64) | [Config_Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 | Руководство | [docs/GUIDE.en.md](docs/GUIDE.en.md) |
-| Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
+| Telegram | [@HiblackFox](https://t.me/HiblackFox) |
 
 ---
 
@@ -222,7 +222,7 @@ Android 7.0 и выше. Панель **3X-UI 3.3.0 или новее**.
 
 ## Support
 
-- Telegram: [https://t.me/blackFoxVPNN](https://t.me/blackFoxVPNN)  
+- Telegram: [https://t.me/HiblackFox](https://t.me/HiblackFox)  
 - Website: [https://foxnext.net](https://foxnext.net)  
 - Email: support@foxnext.net  
 
