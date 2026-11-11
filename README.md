@@ -19,7 +19,7 @@
 <p align="center">
   <a href="https://foxnext.net">Website</a> •
   <a href="https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk"><strong>Download APK (arm64)</strong></a> •
-  <a href="https://github.com/BlackFoxGroup/blackfox-vpn-installer">Black Fox Vpn Installer</a> •
+  <a href="https://github.com/BlackFoxGroup/blackfox-vpn-installer">VPS TO VPN</a> •
   <a href="https://t.me/blackFoxVPNN">Telegram</a>
 </p>
 
