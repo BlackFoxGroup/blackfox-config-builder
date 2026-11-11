@@ -2,7 +2,7 @@
   <img src="docs/assets/config Builder.png" alt="Black Fox Config Builder" width="96">
 </p>
 
-<h1 align="center">Black Fox Config Builder</h1>
+<h1 align="center"><a href="https://apkpure.com/p/net.foxnext.configbuilder">Black Fox Config Builder</a></h1>
 
 <p align="center">
   <strong>Android companion for 3X-UI panel config creation</strong><br>
@@ -25,9 +25,9 @@
 
 | Platform | Product | Version | Arch | Download |
 |----------|---------|---------|------|----------|
-| Android | **Black Fox Config Builder** | **v1.1.4 (Build 9)** | **arm64-v8a** | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
+| Android | **[Black Fox Config Builder](https://apkpure.com/p/net.foxnext.configbuilder)** | **v1.1.4 (Build 9)** | **arm64-v8a** | [Black-Fox-Config-Builder-arm64-v8a.apk](https://github.com/BlackFoxGroup/blackfox-config-builder/releases/latest/download/Black-Fox-Config-Builder-arm64-v8a.apk) |
 
-- Package ID: `com.blackfoxvpnn.configbuilder`
+- Package ID: `net.foxnext.configbuilder`
 - Minimum Android: API 24 (Android 7.0+)
 - Required panel: **3X-UI 3.3.0 or newer**
 - Languages: **10** (en, fa, ru, zh, de, uz, tr, id, uk, hi)
@@ -36,7 +36,7 @@
 
 ## English
 
-**Black Fox Config Builder** is an Android companion app in the Black Fox product family.
+[**Black Fox Config Builder**](https://apkpure.com/p/net.foxnext.configbuilder) is an Android companion app in the Black Fox product family.
 
 It is **not** a VPN client and **not** a server installer.  
 It connects to an existing **3X-UI (Sanaei)** panel and creates client configs from the phone.
@@ -80,7 +80,7 @@ Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 
 ## فارسی
 
-برنامه **Black Fox Config Builder** ابزار همراه اندروید در خانواده Black Fox است.
+برنامه [**Black Fox Config Builder**](https://apkpure.com/p/net.foxnext.configbuilder) ابزار همراه اندروید در خانواده Black Fox است.
 
 این برنامه **کلاینت VPN** نیست و **نصب‌کننده سرور** هم نیست.  
 به پنل موجود **3X-UI** وصل می‌شود و از روی گوشی کانفیگ می‌سازد.
@@ -122,7 +122,7 @@ Source is in [`android/`](android/) (Flutter UI + Go/gomobile 3X-UI client).
 
 ## 中文
 
-**Black Fox Config Builder** 是 Black Fox 系列中的 Android 配套应用。
+[**Black Fox Config Builder**](https://apkpure.com/p/net.foxnext.configbuilder) 是 Black Fox 系列中的 Android 配套应用。
 
 它**不是** VPN 客户端，也**不是**服务器安装程序。  
 它连接已有的 **3X-UI** 面板，在手机上创建客户端配置。
@@ -164,7 +164,7 @@ Android 7.0 及以上。面板需 **3X-UI 3.3.0 或更高**。
 
 ## Русский
 
-**Black Fox Config Builder** — Android-приложение семейства Black Fox.
+[**Black Fox Config Builder**](https://apkpure.com/p/net.foxnext.configbuilder) — Android-приложение семейства Black Fox.
 
 Это **не** VPN-клиент и **не** установщик сервера.  
 Оно подключается к существующей панели **3X-UI** и создаёт клиентские конфиги с телефона.

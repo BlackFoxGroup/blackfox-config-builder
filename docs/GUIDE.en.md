@@ -1,10 +1,10 @@
 # Black Fox Config Builder — User Guide (English)
 
-**Product:** Black Fox Config Builder  
+**Product:** [Black Fox Config Builder](https://apkpure.com/p/net.foxnext.configbuilder)  
 **Current version:** v1.1.3 (Build 7)  
 **Download:** [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
 
-**Black Fox Config Builder** makes it easier to access your VPN management panel (3X-UI) and create configs from your phone.
+[**Black Fox Config Builder**](https://apkpure.com/p/net.foxnext.configbuilder) makes it easier to access your VPN management panel (3X-UI) and create configs from your phone.
 
 With this app, you no longer need the classic browser login workflow to build configs on a smartphone. You connect once with panel credentials and create single or bulk configs directly in the app.
 
