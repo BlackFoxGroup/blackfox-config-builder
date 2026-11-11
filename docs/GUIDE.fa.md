@@ -2,7 +2,7 @@
 
 **نام کامل محصول:** [Black Fox Config Builder](https://apkpure.com/p/net.foxnext.configbuilder)  
 **نسخه فعلی:** v1.1.3 (Build 7)  
-**دانلود:** [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
+**دانلود:** [سایت رسمی (foxnext.net)](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) · [Config Builder در APKPure](https://apkpure.com/p/net.foxnext.configbuilder)
 
 برنامه [**Black Fox Config Builder**](https://apkpure.com/p/net.foxnext.configbuilder) برای دسترسی آسان‌تر به پنل مدیریت VPN (3X-UI) و ساخت کانفیگ از روی گوشی طراحی شده است.
 
